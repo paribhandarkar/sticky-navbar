@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+
+}
+
+.top-container{
+    background: url('https://images.pexels.com/photos/13602798/pexels-photo-13602798.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-container h1{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.text{
+    margin: 50px 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: rgb(237, 189, 237);
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.4s;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.navbar ul li a:hover{
+    color: purple;
+}
+
+.navbar.active{
+    background-color: purple;
+}
+
+.navbar.active ul li a{
+    color: rgb(237, 189, 237);
+}
